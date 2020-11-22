@@ -1,0 +1,26 @@
+{
+  "name": "docximporter",
+  "version": "1.0.5",
+  "description": "",
+  "homepage": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "inkplugin package -o dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "ink-plugin": {
+    "id": "ab423fe8-37f5-477f-85b0-fa3334a4eb94",
+    "title": "Docximporter",
+    "icon": "docx-icon.png",
+    "readme": "readme.md",
+    "module": false
+  },
+  "engines": {
+    "ink": "^2.0.0"
+  },
+  "devDependencies": {
+    "inkplugin": "^0.2.7"
+  }
+}
