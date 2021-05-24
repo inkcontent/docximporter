@@ -1,7 +1,9 @@
 # Docximporter
 Docximporter is a demo plugin for [INK](https://inkforall.com/) that imports docx files in to ink
 
-Please note that this plug was made to show INK API possibilities, it doesn't fully cover docx features.
+Go to File -> Import -> from Docx menu to import your current .docx file compatible with MS Word.
+
+Please note that this plugin was made to show INK API possibilities, it doesn't fully cover docx features.
 
 Working elements : 
  * Headings
