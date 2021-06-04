@@ -16,7 +16,6 @@ function importDocx() {
 async function openFileHandler(res) {
 	mammoth.convertToHtml({ arrayBuffer: res[0]?.data })
 		.then(result => {
-			console.log(result);
+			INKAPI.editor.loadHTML(result.value);
 		})
-	// INKAPI.editor.loadHTML(html);
 }
