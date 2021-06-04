@@ -27191,11 +27191,9 @@ function importDocx() {
 async function openFileHandler(res) {
 	mammoth.convertToHtml({ arrayBuffer: res[0]?.data })
 		.then(result => {
-			console.log(result);
+			INKAPI.editor.loadHTML(result.value);
 		})
-	// INKAPI.editor.loadHTML(html);
 }
-
 },{"mammoth":69}],153:[function(require,module,exports){
 (function (global){(function (){
 'use strict';
