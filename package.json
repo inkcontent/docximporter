@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "",
   "homepage": "",
-  "main": "src/main.js",
+  "main": "src/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "inkplugin package -o dist"
@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "inkplugin": "^0.2.7"
+  },
+  "dependencies": {
+    "mammoth": "^1.4.17"
   }
 }
